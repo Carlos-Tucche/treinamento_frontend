@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://127.0.0.1:5500/imagens-multimidia.html -->
+<html lang="pt_br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Multimidias</title>
+</head>
+<body cz-shortcut-listen="true">
+
+    <h1>Imagens e Multimídias </h1>
+        <h2>Imagens</h2>
+            <p>Imagem local</p>
+                <img src="./Imagens e Multimidias_files/folhas.png" alt="Outono">
+    <br>
+            <p>Imagem externa</p>
+                 <img src="./Imagens e Multimidias_files/novos-caminhos.jpg" alt="pessoa no caminho">
+        <h2>Audio</h2>
+            <p>Audio local</p>
+                <audio src="midia/musica.mp3" controls="">
+                    Seu navegador não suporta a midia <code>audio</code>
+                </audio>
+        <h2>Vídeo</h2>
+            <p>Video local</p>
+                <video src="https://file-examples.com/storage/fe9f92926365baacd9d565f/2017/04/file_example_MP4_480_1_5MG.mp4" ontrols="" loop=""> terra girando 
+                    Seu navegador não suporta a mídia <code>video</code>
+                </video>
+        <h2>Incorporação de conteudo externo</h2>
+            <p>Video do Youtube</p>
+                <iframe <!--="" code="" injected="" by="" live-server="" --="" src="./Imagens e Multimidias_files/saved_resource.html">
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html></iframe></body></html>

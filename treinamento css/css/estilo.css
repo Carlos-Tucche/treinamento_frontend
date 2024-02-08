@@ -1,0 +1,17 @@
+/*Formatação direto no elemento html*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: tomato;
+    font-size: 30px;
+    }
+/*Formatação de classe chama a mesma de com . */
+.lista{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Formatação por id cham a mesma com #*/
+#sub-titula{
+   font-size: 20ps;
+}
