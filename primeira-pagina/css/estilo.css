@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 .header {
-    background-color: #f2f2f2;
+    background-color: #dfdfdf;
     padding: 10px;
     text-align: center;
 }
@@ -22,17 +22,50 @@ body{
     display: block;
 }
 .nav-menu a:hover{
-    background-color: #f2f2f2;
+    background-color: #eee;
     color: #333;
 }
 .content {
     padding: 20px;
 }
 .footer{
-    background-color: #f2f2f2;
+    background-color: #dfdfdf;
     text-align: center;
     padding: 10px;
     bottom: 0;
     width: 100%;
     position: fixed;
 }
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+input{
+    width: 30px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+textarea{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+ }
+ button{
+    padding: 10px;
+    border: 0;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+ }
+ button:hover{
+    background: #727272;
+    color: #333;
+    cursor: pointer;
+ }
