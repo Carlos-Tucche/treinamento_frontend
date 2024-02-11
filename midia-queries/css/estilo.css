@@ -1,0 +1,31 @@
+h1{
+    color: red;
+}
+h2{
+    color: red;
+}
+
+@media(max-width: 600px){
+    h1{
+        color: blue;
+    }
+    h2{
+        color: blue;
+    }
+}
+@media(min-width: 600px) and (max-width: 1024px){
+    h1{
+        color: greenyellow;
+    }
+    h2{
+        color: greenyellow;
+    }
+}
+@media (orientation: portrait){
+    h1{
+        color: blueviolet;
+    }
+    h2{
+        color: blueviolet;
+    }
+}
