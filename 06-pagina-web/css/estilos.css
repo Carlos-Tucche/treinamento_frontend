@@ -14,8 +14,13 @@ img{
     height: auto;
 }
 
-/* Cabeçalho */
 #cabecalho{
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+#cabecalho h1{
     padding-top: 100px;
     padding-bottom: 0;
 }
@@ -84,7 +89,7 @@ img{
 }
 #main-footer a{
     color: #2690d4;
-    text-align: center;
+    text-decoration: none;
 }
 
 @media(min-width: 700px){
@@ -102,4 +107,15 @@ img{
     .content-wrap, #sessao-b ul{
         grid-column: 2/4;
     }
+    #sessao-b ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #sessao-b li{
+        width: 31%;
+    }
+    .box{
+        grid-column: span 2;
+    }
+    
 }
