@@ -101,20 +101,116 @@
             <h3 class="main-title">Dia de hoje</h3>
 
             <div class="card-wrapper">
-                <div class="card-pagamento">
+
+                <div class="card-pagamento light-red">
                     <div class="card-hearder">
                         <div class="amount">
-                            <span class="title">Valor Pagamento</span>
+                            <span class="title">Valor a pagar</span>
                             <span class="amount-value">R$730,00</span>
                         </div>
                         <i class="fas fa-dollar-sign icon"></i>
                     </div>
                     <span class="card-detail">**** **** **** 8874</span>
                 </div>
+
+                <div class="card-pagamento light-green">
+                    <div class="card-hearder">
+                        <div class="amount">
+                            <span class="title">Recebimnetos</span>
+                            <span class="amount-value">R$820,00</span>
+                        </div>
+                        <i class="fas fa-list icon dark-green"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 8874</span>
+                </div>
+
+                <div class="card-pagamento light-blue">
+                    <div class="card-hearder">
+                        <div class="amount">
+                            <span class="title">Valores Processado</span>
+                            <span class="amount-value">R$1500,00</span>
+                        </div>
+                        <i class="fas fa-check icon dark-blue"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 8874</span>
+                </div>
+
+                <div class="card-pagamento light-purple">
+                    <div class="card-hearder">
+                        <div class="amount">
+                            <span class="title">despesas c/ pessoal</span>
+                            <span class="amount-value">R$680,00</span>
+                        </div>
+                        <i class="fas fa-users icon dark-purple"></i>
+                    </div>
+                    <span class="card-detail">**** **** **** 8874</span>
+                </div>
             </div>
 
         </div>
+        <div class="tabular-wrapper">
+            <h3>Histórico de Laçamnetos</h3>
+            <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Descrição</th>
+                        <th>Tipo de Transação</th>
+                        <th>Valor</th>
+                        <th>Categoria</th>
+                        <th>Status</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01/02/2024</td>
+                        <td>Pagamento Fornecedor</td>
+                        <td>Saída</td>
+                        <td>R$ 347,85</td>
+                        <td>Despesas Variáveis</td>
+                        <td>Pago</td>
+                        <td><button>Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td>04/02/2024</td>
+                        <td>Conta Energia Enel</td>
+                        <td>Saída</td>
+                        <td>R$ 221,78</td>
+                        <td>Despesas fixas</td>
+                        <td>Pago</td>
+                        <td><button>Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td>05/02/2024</td>
+                        <td>Recebimento Cliente</td>
+                        <td>Entrada</td>
+                        <td>R$ 980,00</td>
+                        <td>Receitas</td>
+                        <td>A Receber</td>
+                        <td><button>Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td>10/02/2024</td>
+                        <td>Recebimento Cliente</td>
+                        <td>Entrada</td>
+                        <td>R$ 750,00</td>
+                        <td>Receitas</td>
+                        <td>A Receber</td>
+                        <td><button>Editar</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7">Total de R$:</td>
+                    </tr>
+                </tfoot>
 
+            </table>
+            </div>
+        </div>
+        
     </div>
     
 </body>

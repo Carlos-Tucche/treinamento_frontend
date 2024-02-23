@@ -25,7 +25,8 @@ body{
     height: 100vh;
     padding: 0 1.7rem;
     color: #fff;
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow: auto;
     transition: all 0.5s linear;
     background: rgb(113,99,186,255);
 }
@@ -166,11 +167,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+   
 }
 
 .card-pagamento:hover{
     transform: translateY(-5px);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.304);
+    
 }
 
 .card-hearder{
@@ -214,16 +218,16 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.ligtth-red{
+.light-red{
     background: rgb(251, 233, 233) ;
 }
-.ligtth-purple{
+.light-purple{
     background: rgb(254, 226, 254) ;
 }
-.ligtth-green{
+.light-green{
     background: rgb(235, 254, 235) ;
 }
-.ligtth-blue{
+.light-blue{
     background: rgb(236, 226, 254) ;
 }
 .dark-red{
@@ -237,4 +241,66 @@ body{
 }
 .dark-blue{
     background: blue;
+}
+
+.tabular-wrapper{
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.tabular-container{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+
+thead{
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+}
+
+th{
+    padding: 15px;
+    text-align: left;
+}
+
+tbody{
+    background: #f2f2f2;
+}
+
+td{
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+tr:nth-child(even){
+    background: #fff;
+}
+
+tfoot{
+    background: rgba(113, 99, 186, 255);
+    font-weight: bold;
+}
+tfoot td{
+    color: #fff;
+    padding: 15px;
+}
+.table-container button{
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.table-container button:hover{
+    background: #9480f7;
+    transform: scale(1.2);
 }
