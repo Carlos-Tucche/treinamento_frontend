@@ -304,3 +304,7 @@ tfoot td{
     background: #9480f7;
     transform: scale(1.2);
 }
+
+@media(max-width: 770px){
+    
+}
